@@ -1,0 +1,8 @@
+=== терминал сервера ===
+server is listening
+new client accepted ('127.0.0.1', 33198)
+received data hell
+
+=== терминал клиента ===
+echo hello
+

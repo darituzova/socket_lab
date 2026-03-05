@@ -1,0 +1,16 @@
+
+=== терминал сервера (pickle) ===
+dariatuzova@dariatuzova-VirtualBox:~/socket/lab04_pickle_and_udp/pickle$ python3 server.py
+dariatuzova@dariatuzova-VirtualBox:~/socket/lab04_pickle_and_udp/pickle
+
+=== терминал клиента (pickle) ===
+echo {'name': 'alice', 'n': 42}
+
+=== UDP ПРИЛОЖЕНИЕ (порт 9091) ===
+
+=== терминал сервера (UDP) ===
+dariatuzova@dariatuzova-VirtualBox:~/socket/lab04_pickle_and_udp/udp$ python3 server.py
+
+=== терминал клиента (UDP) ===
+echo hello udp
+

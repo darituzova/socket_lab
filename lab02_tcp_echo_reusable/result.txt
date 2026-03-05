@@ -1,0 +1,28 @@
+=== терминал сервера ===
+server is listening
+new client accepted ('127.0.0.1', 50054)
+received hi
+received Daria
+received good
+received exit
+client left, waiting for next
+new client accepted ('127.0.0.1', 53058)
+received again
+received exir
+received exit
+client left, waiting for next
+
+=== терминал клиента ===
+message (exit to quit): hi
+echo hi
+message (exit to quit): Daria
+echo Daria
+message (exit to quit): good
+echo good
+message (exit to quit): exit
+message (exit to quit): again
+echo again
+message (exit to quit): exir
+echo exir
+message (exit to quit): exit
+

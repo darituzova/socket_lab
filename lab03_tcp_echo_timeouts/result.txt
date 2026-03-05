@@ -1,0 +1,27 @@
+=== терминал сервера ===
+python3 server.py
+server is listening on 9090
+no client, listening again
+new client ('127.0.0.1', 45368)
+received hi
+client left
+no client, listening again
+new client ('127.0.0.1', 48768)
+timeout, closing connection
+client left
+
+Second pusk
+python3 server.py
+server is listening on 9090
+new client ('127.0.0.1', 53328)
+received new
+client left
+no client, listening again
+
+=== терминал клиента ===
+message (exit to quit): hi
+echo hi
+message (exit to quit): timeout
+echo
+message (exit to quit): new
+echo new
